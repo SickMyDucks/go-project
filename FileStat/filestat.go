@@ -48,7 +48,7 @@ func count(Map map[rune]int) {
 	}
 
 	if len(maxLetter) < 2 {
-		fmt.Printf("Most recurrent letter is %s with %d occurrences\n", strings.Join(strings.Split(string(maxLetter), ""), ", "), maxCount)
+		fmt.Printf("Most recurrent letter is %s with %d occurrences\n", strings.Join(strings.Split(string(maxLetter), ""), ","), maxCount)
 	} else {
 		fmt.Printf("Most recurrent letters are %q with %d occurrences\n", strings.Join(strings.Split(string(maxLetter), ""), ", "), maxCount)
 	}
